@@ -9,7 +9,7 @@ export function Timer() {
   });
 
   React.useEffect(() => {
-    const hackathonDate = new Date('2024-06-15T09:00:00').getTime();
+    const hackathonDate = new Date('2025-02-22T09:00:00').getTime();
 
     const timer = setInterval(() => {
       const now = new Date().getTime();

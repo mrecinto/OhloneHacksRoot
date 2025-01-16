@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { Timer } from './Timer';
 
 export function Hero() {
@@ -19,10 +20,11 @@ export function Hero() {
 
       <div className="relative z-10 container mx-auto px-6 text-center">
         <h1 className="text-5xl md:text-7xl font-bold text-white mb-6">
-          Innovate, Create, Elevate
+        Ohlone Hacks 2025
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
-          Join us at Mission Peak's doorstep for the Bay Area's most inspiring hackathon
+          {/* Join us at Mission Peak's doorstep for the Bay Area's most inspiring hackathon */}
+          Coming Soon Feb 22-23
         </p>
         
         <Timer />
@@ -34,6 +36,7 @@ export function Hero() {
           >
             Register Now
           </a>
+         
           <a
             href="#about"
             className="px-8 py-3 bg-white/10 hover:bg-white/20 text-white rounded-full font-semibold backdrop-blur-sm transition-colors"

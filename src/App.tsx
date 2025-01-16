@@ -13,16 +13,16 @@ import { Footer } from './components/Footer';
 function App() {
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900 text-gray-900 dark:text-white">
-      <Header />
+      {/* <Header /> */}
       <Hero />
-      <About />
+      {/* <About />
       <Schedule />
       <Tracks />
       <Prizes />
       <Sponsors />
       <FAQ />
       <Contact />
-      <Footer />
+      <Footer /> */}
     </div>
   );
 }
