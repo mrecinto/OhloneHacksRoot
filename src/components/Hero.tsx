@@ -24,8 +24,9 @@ export function Hero() {
         </h1>
         <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl mx-auto">
           {/* Join us at Mission Peak's doorstep for the Bay Area's most inspiring hackathon */}
-          Coming Soon Feb 22-23
+          Coming Soon Feb 22-23.
         </p>
+        
         
         <Timer />
 
