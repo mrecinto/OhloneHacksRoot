@@ -30,12 +30,14 @@ export function Hero() {
         <Timer />
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mt-8">
-          <a
-            href="#register"
-            className="px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-full font-semibold transition-colors"
-          >
-            Register Now
-          </a>
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLSch8puXVeCb6MkMehUr1x7nvqOlClQV8n5NVczVIOoAbPnrog/viewform" // Replace this with your desired URL
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="px-8 py-3 bg-orange-500 hover:bg-orange-600 text-white rounded-full font-semibold transition-colors"
+        >
+          Register Now
+        </a>
          
           <a
             href="#about"
